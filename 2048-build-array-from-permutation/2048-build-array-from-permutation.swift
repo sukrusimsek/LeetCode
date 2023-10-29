@@ -7,5 +7,5 @@ class Solution {
             array.append(arrayS)
         }
         return array
-    } 
+    }
 }
