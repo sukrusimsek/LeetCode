@@ -3,15 +3,13 @@ class Solution {
         if nums.isEmpty {
             return 0
         }
-        var result = 0
-        for i in 1..<nums.count {
-            if nums[i] != nums[result] {
-                result += 1
-                nums[result] = nums[i]
-
-            }
-        }
-        let lastResult = result + 1
-        return lastResult
+       var array:[Int] = []
+       for num in nums {
+           if !array.contains(num) {
+            array.append(num)
+           }
+       }
+        nums = array
+        return nums.count
     }
 }
