@@ -9,6 +9,5 @@ class Solution {
             let reverseIndex = Array(index.reversed())
             matrix.append(reverseIndex)
         }
-        print(matrix)
     }
 }
