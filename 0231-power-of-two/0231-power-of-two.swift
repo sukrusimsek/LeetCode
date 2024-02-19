@@ -10,5 +10,11 @@ class Solution {
         }
     
     return true
+    //Second way
+    //if n <= 0 { return false }
+    //return n & (n - 1) == 0
+
+    //
+    //n.nonzeroBitCount == 1
     }   
 }
